@@ -1,0 +1,39 @@
+
+[
+  {
+    "transaction_id": "TRN001",
+    "account": {
+      "account_number": "ACC123456789",
+      "account_type": "Checking",
+      "balance": 5000.00
+    },
+    "transaction_date": "2025-11-14T10:30:00Z",
+    "type": "deposit",
+    "amount": 1000.00,
+    "description": "Paycheck"
+  },
+  {
+    "transaction_id": "TRN002",
+    "account": {
+      "account_number": "ACC123456789",
+      "account_type": "Checking",
+      "balance": 4850.50
+    },
+    "transaction_date": "2025-11-14T12:00:00Z",
+    "type": "withdrawal",
+    "amount": 149.50,
+    "description": "Grocery Store"
+  },
+  {
+    "transaction_id": "TRN003",
+    "account": {
+      "account_number": "ACC987654321",
+      "account_type": "Savings",
+      "balance": 10000.00
+    },
+    "transaction_date": "2025-11-13T15:00:00Z",
+    "type": "deposit",
+    "amount": 500.00,
+    "description": "Transfer from Checking"
+  }
+]

@@ -1,0 +1,17 @@
+
+[
+  {
+    "id": "ARTICLE001",
+    "title": "The Future of Artificial Intelligence",
+    "author": "Dr. Evelyn Reed",
+    "publication_date": "2025-10-15",
+    "content": "Artificial intelligence (AI) is rapidly evolving, with new breakthroughs happening every day. From natural language processing to computer vision, AI is transforming industries and creating new possibilities. This article explores the latest trends in AI and discusses the potential impact on society in the coming years. We will delve into topics such as ethical considerations, the job market, and the potential for superintelligence."
+  },
+  {
+    "id": "ARTICLE002",
+    "title": "A Guide to Sustainable Living",
+    "author": "Mark Chen",
+    "publication_date": "2025-11-01",
+    "content": "Sustainable living is a lifestyle that aims to reduce one's environmental impact. This can be achieved through various practices, such as reducing waste, conserving energy, and making conscious consumer choices. This guide provides practical tips and advice on how to adopt a more sustainable lifestyle. From composting and recycling to using renewable energy, we cover a wide range of topics to help you make a positive impact on the planet."
+  }
+]

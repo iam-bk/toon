@@ -1,0 +1,59 @@
+
+[
+  {
+    "order_id": "ORD12345",
+    "customer": {
+      "customer_id": "CUST001",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip_code": "12345"
+      }
+    },
+    "order_date": "2025-11-14",
+    "items": [
+      {
+        "product_id": "PROD01",
+        "product_name": "Laptop",
+        "quantity": 1,
+        "price": 1200.00
+      },
+      {
+        "product_id": "PROD02",
+        "product_name": "Mouse",
+        "quantity": 1,
+        "price": 25.00
+      }
+    ],
+    "total_amount": 1225.00,
+    "status": "Shipped"
+  },
+  {
+    "order_id": "ORD12346",
+    "customer": {
+      "customer_id": "CUST002",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Somecity",
+        "state": "NY",
+        "zip_code": "54321"
+      }
+    },
+    "order_date": "2025-11-13",
+    "items": [
+      {
+        "product_id": "PROD03",
+        "product_name": "Keyboard",
+        "quantity": 1,
+        "price": 75.00
+      }
+    ],
+    "total_amount": 75.00,
+    "status": "Processing"
+  }
+]

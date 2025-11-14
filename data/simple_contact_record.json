@@ -1,0 +1,20 @@
+{
+	"first_name": "John",
+	"last_name": "Doe",
+	"email": "john.doe@example.com",
+	"phone": "+1-555-123-4567",
+	"company": "Example Corp",
+	"job_title": "Software Engineer",
+	"birthday": "1990-01-01",
+	"notes": "Met at tech conference.",
+	"address": {
+		"street": "123 Main St",
+		"city": "Anytown",
+		"state": "CA",
+		"zip": "90210"
+	},
+	"social_media": {
+		"linkedin": "https://linkedin.com/in/johndoe",
+		"twitter": "@johndoe"
+	}
+}

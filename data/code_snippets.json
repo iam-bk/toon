@@ -1,0 +1,20 @@
+[
+  {
+    "snippet_id": "CODE001",
+    "language": "Python",
+    "title": "Simple Web Server",
+    "code": "import http.server\nimport socketserver\n\nPORT = 8000\n\nHandler = http.server.SimpleHTTPRequestHandler\n\nwith socketserver.TCPServer(('', PORT), Handler) as httpd:\n    print('serving at port', PORT)\n    httpd.serve_forever()"
+  },
+  {
+    "snippet_id": "CODE002",
+    "language": "JavaScript",
+    "title": "Fetch API Example",
+    "code": "fetch('https://api.example.com/data')\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error('Error:', error));"
+  },
+  {
+    "snippet_id": "CODE003",
+    "language": "SQL",
+    "title": "Select with Join",
+    "code": "SELECT o.order_id, c.customer_name\nFROM orders o\nJOIN customers c ON o.customer_id = c.customer_id\nWHERE o.order_date > '2025-01-01';"
+  }
+]

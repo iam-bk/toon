@@ -1,0 +1,66 @@
+
+[
+  {
+    "patient_id": "PATIENT001",
+    "personal_info": {
+      "name": "Robert Johnson",
+      "dob": "1985-05-20",
+      "gender": "Male",
+      "contact": {
+        "phone": "555-123-4567",
+        "email": "robert.johnson@example.com"
+      }
+    },
+    "medical_history": [
+      {
+        "visit_id": "VISIT001",
+        "date": "2025-10-20",
+        "doctor": "Dr. Emily White",
+        "diagnosis": "Hypertension",
+        "treatment": {
+          "medication": "Lisinopril",
+          "dosage": "10mg daily"
+        }
+      },
+      {
+        "visit_id": "VISIT002",
+        "date": "2025-11-10",
+        "doctor": "Dr. Emily White",
+        "diagnosis": "Follow-up",
+        "treatment": {
+          "medication": "Lisinopril",
+          "dosage": "10mg daily"
+        }
+      }
+    ],
+    "insurance": {
+      "provider": "HealthCare Inc.",
+      "policy_number": "HC123456789"
+    }
+  },
+  {
+    "patient_id": "PATIENT002",
+    "personal_info": {
+      "name": "Maria Garcia",
+      "dob": "1992-08-15",
+      "gender": "Female",
+      "contact": {
+        "phone": "555-987-6543",
+        "email": "maria.garcia@example.com"
+      }
+    },
+    "medical_history": [
+      {
+        "visit_id": "VISIT003",
+        "date": "2025-11-12",
+        "doctor": "Dr. David Green",
+        "diagnosis": "Annual Check-up",
+        "treatment": null
+      }
+    ],
+    "insurance": {
+      "provider": "SecureHealth",
+      "policy_number": "SH987654321"
+    }
+  }
+]

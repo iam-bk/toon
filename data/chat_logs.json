@@ -1,0 +1,45 @@
+
+[
+  {
+    "session_id": "CHAT001",
+    "participants": ["User1", "SupportAgent"],
+    "log": [
+      {
+        "timestamp": "2025-11-14T09:00:00Z",
+        "sender": "User1",
+        "message": "Hi, I'm having trouble with my account."
+      },
+      {
+        "timestamp": "2025-11-14T09:00:30Z",
+        "sender": "SupportAgent",
+        "message": "Hello! I'm here to help. What seems to be the problem?"
+      },
+      {
+        "timestamp": "2025-11-14T09:01:00Z",
+        "sender": "User1",
+        "message": "I can't seem to log in. I've reset my password, but it's still not working."
+      }
+    ]
+  },
+  {
+    "session_id": "CHAT002",
+    "participants": ["Alice", "Bob"],
+    "log": [
+      {
+        "timestamp": "2025-11-13T18:30:00Z",
+        "sender": "Alice",
+        "message": "Hey, are you free this weekend?"
+      },
+      {
+        "timestamp": "2025-11-13T18:30:45Z",
+        "sender": "Bob",
+        "message": "I think so! What did you have in mind?"
+      },
+      {
+        "timestamp": "2025-11-13T18:31:15Z",
+        "sender": "Alice",
+        "message": "I was thinking of going for a hike."
+      }
+    ]
+  }
+]
